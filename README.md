@@ -28,7 +28,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 1 Create some sample file shares with various permissions
 - Step 2 Attempt to access file shares as a normal user
 - Step 3 Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
-- Step 4
 
 <h2>Actions and Observations</h2>
 
@@ -36,7 +35,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/7W7rH1B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-starting off from the last project log in to the domain controller then login to the other Vm client-1 with one of the user you created last project in the _EMPLOYEES folders then go back to the domain controller and go to windows(c) in file explorer and create a “read-access”, “write-access”, “no-access”, “accounting” then right click each folder execpt accounting then go to properties, sharing, share then add domain users and give it the permission that it says but for no-access give it both read and write.
+starting off from the (https://github.com/tezranitup/configure-ad) project login to the domain controller then login to the other Vm client-1 with one of the user you created last project in the _EMPLOYEES folders then go back to the domain controller and go to windows(c) in file explorer and create a “read-access”, “write-access”, “no-access”, “accounting” then right click each folder execpt accounting then go to properties, sharing, share then add domain users and give it the permission that it says but for no-access give it both read and write.
 
 </p>
 <br />
